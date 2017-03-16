@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebKubic</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Find your fantasy universe...</h1>
+        <div>
+            <form action="/signin" method="GET">
+                <input type="text" name="username" placeholder="login">
+                <input type="password" name="password" placeholder="password">
+                <div>
+                    <a href="/signup">Haven't account, yet?</a>
+                    <button type="submit">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <div>
+        <div>
+            <h2>SiteMap</h2>
+            <nav>
+                <ul>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div>
+            <div>
+                <div>
+                    <img src="https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/tihkv9pzwnfxhwmeh3sn.jpg">
+                </div>
+                <div>Rating</div> <!--TODO star icon-->
+                <p>
+                    The Lord of the Rings is an epic high-fantasy
+                    novel written by English author J. R. R. Tolkien.
+                </p>
+                <div></div> <!--TODO facebook google icon-->
+            </div>
+            <div>
+                <h3>Lord of the rings</h3>
+                <p>
+                    A meek Hobbit from the Shire and eight companions
+                    set out on a journey to destroy the powerful One
+                    Ring and save Middle Earth from the Dark Lord Sauron.
+                </p>
+                <iframe src="http://www.imdb.com/videoembed/vi2073101337" allowfullscreen></iframe>
+                <div>
+                    <a href="https://www.kinopoisk.ru/film/328/">Kinopoisk</a>
+                    <a href="http://www.imdb.com/title/tt0120737/">IMDB</a>
+                </div>
+                <div>
+                    <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
+
+                    <!-- VK Widget -->
+                    <div id="vk_groups"></div>
+                    <script>
+                        VK.Widgets.Group("vk_groups", {
+                            mode: 1,
+                            no_cover: 1,
+                            color1: 'FFD600',
+                            color3: '000000'
+                        }, 6516);
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Top #10</h2>
+            <ul>
+                <li>Lord of the rings</li>
+                <li>Harry Potter</li>
+                <li>The last airbender</li>
+                <li>...</li>
+                <li>Pirate of the caribbean</li>
+            </ul>
+            <div><button></button></div>
+        </div>
+        <div>
+            <div>
+                <div></div> <!--TODO left slider icon-->
+                <div>
+                    <ul>
+                        <li><img src="https://upload.wikimedia.org/wikipedia/en/5/55/Van_Helsing_poster.jpg"></li>
+                        <li><img src="http://cdn.images.express.co.uk/img/dynamic/36/590x/secondary/Avatar-poster-421587.jpg"></li>
+                        <li><img src="http://vignette3.wikia.nocookie.net/gameofthrones/images/2/2c/Season_1_Poster.jpg/revision/latest?cb=20110406150536"></li>
+                        <li><img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Narniacd.jpg"></li>
+                        <li><img src="http://uzkinoxit.com/_nw/45/27869467.jpg"></li>
+                    </ul>
+                </div>
+                <div></div> <!--TODO right slider icon-->
+            </div>
+            <div>
+                <ul>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/18/1f/9f/181f9f4617c9825d374dbd323deff100.jpg">
+            <p>
+                “When I’m 80 years old and sitting in my rocking chair,
+                I’ll be reading Harry Potter. And my family will say to me,
+                ‘After all this time?’ And I will say, ‘Always.’”
+            </p>
+            <p>- Alan Rickman</p>
+        </div>
+    </main>
+    <footer>
+        <h2>Contacts</h2>
+        <div>
+            <p>Subscribe: <span><img src=""></span></p>
+            <p>Phones: <span></span><span></span></p>
+        </div>
+        <div>
+            <form action="/review" method="POST">
+                <input type="text" name="email" placeholder="Email"/>
+                <input type="text" name="title" placeholder="Title"/>
+                <textarea name="text">Leave your review...</textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
