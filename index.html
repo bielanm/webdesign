@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>WebKubic</title>
-
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -25,10 +24,11 @@
             <h2>SiteMap</h2>
             <nav>
                 <ul>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
+                    <li><a><img src="img/menu_top.png" alt="img/oops.png"></a></li>
+                    <li><a><img src="img/menu_movie.png" alt="img/oops.png"></a></li>
+                    <li><a><img src="img/menu_book.png" alt="img/oops.png"></a></li>
+                    <li><a><img src="img/menu_planet.png" alt="img/oops.png"></a></li>
+                    <li><a><img src="img/menu_contacts.png" alt="img/oops.png"></a></li>
                 </ul>
             </nav>
         </div>
@@ -47,9 +47,9 @@
         <div>
             <div>
                 <div>
-                    <img src="https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/tihkv9pzwnfxhwmeh3sn.jpg">
+                    <img src="img/LordOftheRings.png" alt="img/oops.png">
                 </div>
-                <div>Rating</div> <!--TODO star icon-->
+                <p>Rating <span>☆</span></p> <!--TODO star icon (css)-->
                 <p>
                     The Lord of the Rings is an epic high-fantasy
                     novel written by English author J. R. R. Tolkien.
@@ -64,10 +64,10 @@
                     Ring and save Middle Earth from the Dark Lord Sauron.
                 </p>
                 <iframe src="http://www.imdb.com/videoembed/vi2073101337" allowfullscreen></iframe>
-                <div>
+                <p>
                     <a href="https://www.kinopoisk.ru/film/328/">Kinopoisk</a>
                     <a href="http://www.imdb.com/title/tt0120737/">IMDB</a>
-                </div>
+                </p>
                 <div>
                     <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
 
@@ -87,27 +87,28 @@
         <div>
             <h2>Top #10</h2>
             <ul>
-                <li>Lord of the rings</li>
-                <li>Harry Potter</li>
-                <li>The last airbender</li>
+                <li>Lord of the rings<span>☆</span></li>
+                <li>Harry Potter<span>☆</span></li>
+                <li>The last airbender<span>☆</span></li>
                 <li>...</li>
-                <li>Pirate of the caribbean</li>
+                <li>Pirate of the caribbean<span>☆</span></li>
+                <!--TODO star icons (css)-->
             </ul>
             <div><button></button></div>
         </div>
         <div>
             <div>
-                <div></div> <!--TODO left slider icon-->
+                <div></div> <!--TODO left slider icon (css)-->
                 <div>
                     <ul>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/en/5/55/Van_Helsing_poster.jpg"></li>
-                        <li><img src="http://cdn.images.express.co.uk/img/dynamic/36/590x/secondary/Avatar-poster-421587.jpg"></li>
-                        <li><img src="http://vignette3.wikia.nocookie.net/gameofthrones/images/2/2c/Season_1_Poster.jpg/revision/latest?cb=20110406150536"></li>
-                        <li><img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Narniacd.jpg"></li>
-                        <li><img src="http://uzkinoxit.com/_nw/45/27869467.jpg"></li>
+                        <li><a><img src="img/slider_VanHelsing.png" alt="img/oops.png"></a></li>
+                        <li><a><img src="img/slider_avatar.png" alt="img/oops.png"></a></li>
+                        <li><a><img src="img/slider_GameOfThrones.png" alt="img/oops.png"></a></li>
+                        <li><a><img src="img/slider_Narnia.png" alt="img/oops.png"></a></li>
+                        <li><a><img src="img/slider_Warcraft.png" alt="img/oops.png"></a></li>
                     </ul>
                 </div>
-                <div></div> <!--TODO right slider icon-->
+                <div></div> <!--TODO right slider icon (css)-->
             </div>
             <div>
                 <ul>
@@ -116,11 +117,14 @@
                     <div></div>
                     <div></div>
                     <div></div>
+                    <!--TODO slider pages (css)-->
                 </ul>
             </div>
         </div>
         <div>
-            <img src="https://s-media-cache-ak0.pinimg.com/originals/18/1f/9f/181f9f4617c9825d374dbd323deff100.jpg">
+            <div>
+                <img src="img/Alan_Rickman.png" alt="img/oops.png">
+            </div>
             <p>
                 “When I’m 80 years old and sitting in my rocking chair,
                 I’ll be reading Harry Potter. And my family will say to me,
@@ -132,8 +136,15 @@
     <footer>
         <h2>Contacts</h2>
         <div>
-            <p>Subscribe: <span><img src=""></span></p>
-            <p>Phones: <span></span><span></span></p>
+            <div>
+                <div><p>Subscribe:</p></div>
+                <div><img src="img/fb.png" alt="img/oops.png"><img src="img/vk.png" alt="img/oops.png"></div>
+            </div>
+            <div>
+                <div><p>Phones:</p></div>
+                <div><p>+380501447062</p><p>+380957067671</p></div>
+            </div>
+            <p>Phones:</p>
         </div>
         <div>
             <form action="/review" method="POST">
